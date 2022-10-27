@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+/* font-family: 'Big Shoulders Display', cursive;
+  font-family: "Sofia", sans-serif; */
+}
+body{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.box-container {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+}
+.box {
+  width: 269px;
+  padding: 15px;
+  min-height: 430px;
+}
+.box1 {
+  background-color: rgba(226,133,37,255);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.box2 {
+  background-color: rgba(1,105,114,255);
+}
+.box3 {
+  background-color: rgba(0,64,63,255);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.content{
+  padding: 10px;
+}
+h1{
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+  margin: 25px 0;
+}
+p{
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Big Shoulders Display', cursive;
+  margin-bottom: 20px;
+}
+.btn{
+  margin: 30px 0px;
+  padding: 5px 30px;
+  border: 0;
+  border-radius: 25px;
+  outline: none;
+  background-color: #ecf2f3;
+  font-size: 15px;
+  font-family: "Sofia", sans-serif;
+  font-weight: 700;
+}
+.btn1{
+    color: rgba(226,133,37,255);
+  }
+  .btn2{
+    color: rgba(1,105,114,255);
+  }
+  .btn3{
+    color: rgba(0,64,63,255);
+  }
+  .btn:hover{
+    background-color: transparent;
+    border: 2px solid #ecf2f3;
+    color: #ecf2f3;
+    transition: 0.5s;
+  }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(11, 50px);
+  gap: 20px;
+  background-color: rgba(26,28,40,255);
+  padding: 20px;
+}
+.grid-item-1{
+  grid-column: 1 / span 7;
+  grid-row: 1 / span 1;
+  background-color: #ff2600;
+}
+.grid-item-2{
+  grid-column: 8 / span 4;
+  grid-row: 1 / span 1;
+  background-color: #f49e0b;
+}
+.grid-item-3{
+  grid-column: 1 / span 5;
+  grid-row: 2 / span 2;
+  background-color: #1ca037;
+}
+.grid-item-4{
+  grid-column: 6 / span 6;
+  grid-row: 2 / span 1;
+  background-color: #18abdc;
+}
+.grid-item-5{
+  grid-column: 6 / span 6;
+  grid-row: 3 / span 1;
+  background-color: #18abdc;
+}
